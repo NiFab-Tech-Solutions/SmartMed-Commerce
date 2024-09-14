@@ -48,7 +48,7 @@ const MobileMenu = ({ onClose }: MobileMenuProps) => {
   return (
     <div className='w-full min-h-screen h-fit  bg-gray-50 flex flex-col'>
       <div className="flex justify-between w-full bg-white px-5 py-3">
-        <img src="/logoo.png" alt="logo" className="w-32 flex h-10 text-gray-800 bg-white" />
+        <h1 className="text-blue-700 font-medium">RWAMED</h1>
         <button className="flex items-center" onClick={onClose}>
           <svg
             className="w-6 h-6 text-red-500"

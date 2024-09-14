@@ -14,8 +14,8 @@ const Page = () => {
                     <div className='relative '>
                         <Image
                             src="/med5.jpg"
-                            width={50}
-                            height={50}
+                            width={200}
+                            height={200}
                             alt="Picture of the Logo" className='border border-orange-400 p-1 rounded-sm w-full'/>
                             <div className='w-6 h-6 rounded-full bg-gray-500 text-center absolute top-[-7px] right-[-7px]'><span className='text-[12px] text-white'>30</span></div>
                         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import partenersData from '../data/dummy-data/ourPartenersDumyData'
-
+import Image from 'next/image'
 const OurParteners = () => {
     return (
         <div className="OurServicesparteners min-h-screen h-fit py-12 bg-gray-200 w-full flex flex-col space-y-12 items-center justify-center px-8">
@@ -14,7 +14,7 @@ const OurParteners = () => {
                     <div key={idx} className='parternerCard flex space-x-2 h-40 rounded-md  border-orange-600 p-2 border'>
                         <div className='w-[30%] h-full  m-auto flex justify-center'>
                             <div className='h-20 border-b-2 border-b-blue-600 rounded-md w-28 flex justify-center m-auto p-2 shadow-md'>
-                                <img src={partener.image} alt='log' className='w-full h-full flex justify-center m-auto' />
+                            <Image height={100} width={100} src={partener.image} alt='log' className='w-full h-full flex justify-center m-auto' />
                             </div>
                         </div>
                         <div className='w-[70%] text-sm h-full flex flex-col py-auto items-center justify-center space-y-3'>

@@ -3,6 +3,7 @@ import React from 'react'
 import DummyProducts from '../data/dummy-data/DummyProducts';
 import { BsFillCartPlusFill } from "react-icons/bs";
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 const LatestDiscont = () => {
   const route=useRouter();
@@ -33,7 +34,7 @@ const LatestDiscont = () => {
             </div>
             </div>
             <div className='image flex w-full'>
-            <img src={product.image} alt='product' className='w-full h-44 object-cove transform hover:scale-110 transition-transform duration-500' />
+            <Image height={100} width={100} src={product.image} alt='product' className='w-full h-44 object-cove transform hover:scale-110 transition-transform duration-500' />
             </div>
             <div className='flex w-full'>
               <div className='name'>

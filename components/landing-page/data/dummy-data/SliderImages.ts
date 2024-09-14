@@ -12,7 +12,7 @@ const sliderImages = [
       text: 'Beauty is the ascription of a property or characteristic to a person, object, animal, place or idea that provides a perceptual experience of pleasure or satisfaction.',
     },
     {
-      url: 'med1.jpg',
+      url: '/med1.jpg',
       text: 'Laptop lenovo is a laptop made by lenovo company, it has a RAM of 8GB and a storage of 1TB, it has a processor of 2.4GHz',
     },
   ];

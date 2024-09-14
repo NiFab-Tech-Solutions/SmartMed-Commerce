@@ -4,6 +4,7 @@ import DummyProducts from '../data/dummy-data/DummyProducts';
 import { BsFillCartPlusFill } from "react-icons/bs";
 import { useRouter } from 'next/navigation';
 import { useParams } from 'next/navigation';
+import Image from 'next/image';
 
 const PopularProductsSection = () => {
   const { locale } = useParams();
@@ -30,7 +31,7 @@ const PopularProductsSection = () => {
               </div>
             </div>
             <div className='image flex w-full'>
-              <img src={product.image} alt='product' className='w-full h-44 object-cove transform hover:scale-110 transition-transform duration-500' />
+            <Image height={100} width={100} src={product.image} alt='product' className='w-full h-44 object-cove transform hover:scale-110 transition-transform duration-500' />
             </div>
             <div className='flex w-full mt-2'>
               <div className='name'>

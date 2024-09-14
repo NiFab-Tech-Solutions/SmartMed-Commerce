@@ -2,6 +2,7 @@
 import CategoriesDummyData from "../data/dummy-data/CategoriesDummyData";
 import React from "react";
 import { RxCaretRight } from "react-icons/rx";
+import Image from "next/image";
 const CategorySection = () => {
   return (
     <div className="w-full max-w-screen-2xl mx-auto px-3 sm:px-10 flex flex-col items-center justify-center">
@@ -15,10 +16,9 @@ const CategorySection = () => {
       </div>
       <div className="categoryList w-full grid 2xl:grid-cols-6 xl:grid-cols-6 lg:grid-cols-6 md:grid-cols-4 grid-cols-2 gap-2 items-center justify-center md:px-6 px-3 ">
         {CategoriesDummyData.map((category, index) => (
-          // <Link href={'/product_details'}>
           <div key={index+1} className="categoryItem flex space-x-4 p-3 shadow-lg rounded-md">
             <div className="categoryImage rounded-lg w-16 h-16 block items-center justify-center">
-              <img
+            <Image height={100} width={100}
                 src={category.image}
                 alt=""
                 className="rounded-lg w-16 h-16 object-cover cursor-pointe"
