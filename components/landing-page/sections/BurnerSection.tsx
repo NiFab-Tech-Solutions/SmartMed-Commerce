@@ -19,9 +19,9 @@ const BurnerSection = () => {
   }, [currentSlide]);
 
   return (
-    <div className="bg-gradient-to-l pt-2 rounded-md flex min-h-screen items-center flex-col h-screen space-y-12 2xl:md:px-5 xl:md:px-5 lg:md:px-5 md:px-5 px-2">
-      <div className="w-full max-w-screen-2xl mx-auto px-3 sm:px-10 flex rounded-md h-[70%]">
-        <div className="mainBunner h-full  flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row flex-col justify-center items-center m-auto bg-[#426D9C] md:w-[65%] w-[100%] relative bg-no-repeat bg-cover bg-center bg-fixed bg-img">
+    <div className="bg-gradient-to-l pt-2 rounded-md flex min-h-screen items-center flex-col h-screen space-y-12">
+      <div className="w-full flex rounded-md h-[70%]">
+        <div className="mainBunner h-full  flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row flex-col justify-center items-center m-auto bg-[#426D9C] w-full relative bg-no-repeat bg-cover bg-center bg-fixed bg-img">
           {sliderImages.map((image, index) => (
             <div
               key={index}
@@ -33,7 +33,7 @@ const BurnerSection = () => {
                 alt={`Slider ${index}`}
                 className="w-full h-full object-cover transition-transform duration-500"
               />
-              <div className="absolute xl:px-56 lg:pr-28 2xl:left-[34%] 2xl:pr-96 md:px-24 px-12 top-1/2 xl:left-[25%] lg:left-[41%] md:left-[37%] left-[45%] w-full xl:font-bold font-bold text-black xl:text-xl md:text-lg text:xl my-auto text-start transform -translate-x-1/2 -translate-y-1/2  flex  leading-loosefont-bold">
+              <div className="absolute md:ml-10 ml-1 xl:px-56 lg:pr-28 2xl:left-[34%] 2xl:pr-96 md:px-24 px-12 top-1/2 xl:left-[25%] lg:left-[41%] md:left-[37%] left-[45%] w-full xl:font-bold font-bold text-black xl:text-xl md:text-lg text:xl my-auto text-start transform -translate-x-1/2 -translate-y-1/2  flex  leading-loosefont-bold">
                 {image.text}
               </div>
             </div>
@@ -87,9 +87,9 @@ const BurnerSection = () => {
           </div>
         </div>
       </div>
-      <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-10">
-        <div className="discounts md:flex-row flex-col w-full bg-gradient-to-r from-blue-600 to-[#3991f5] rounded-md p-6 flex">
-          <div className="leftDiv flex flex-col md:w-[70%] w-full">
+      <div className="w-full px-4 bg-gradient-to-r from-blue-600 to-[#3991f5]  sm:px-10">
+        <div className="discounts md:flex-row flex-col w-full rounded-md p-6 flex">
+          <div className="leftDiv flex flex-col  w-full">
             <h1 className="w-full text-white md:text-3xl text-xl font-bold mb-4 leading-tight">100% Natural Quality Organic Product</h1>
             <p className="w-full flex text-gray-300 md:text-base text-sm">Explore our latest discounted products and enjoy special discounts on premium organic items.</p>
           </div>

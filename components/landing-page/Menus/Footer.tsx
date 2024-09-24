@@ -6,8 +6,8 @@ import SocialMediaIcons from './Icons';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-blue-800 w-full" id='contact-us'>
-      <div className="w-full max-w-screen-2xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <footer className="bg-blue-800 px-4 w-full" id='contact-us'>
+      <div className="w-full py-12  lg:py-16 ">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
           <div className="md:grid md:grid-cols-2 md:gap-8">

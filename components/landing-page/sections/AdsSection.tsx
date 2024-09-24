@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const AdsSection = () => {
     return (
-        <div className='h-[80vh] mt-5 w-full flex md:px-12 px-2'>
+        <div className='h-[80vh] mt-5 w-full flex '>
             <div className='xl:w-[30%] xl:flex md:w-[40%] md:flex hidden  h-full'>
-                <Image height={100} width={100} src='/Ad1.webp' alt='ad' className='w-full h-full object-cover' />
+                <Image height={100} width={500} src='/Ad1.webp' alt='ad' className='w-full h-full object-cover' />
             </div>
             <div className='flex xl:w-[40%] md:w-[60%] w-full h-full justify-center flex-col items-center p-3'>
                 <h1 className='flex 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-3xl text-xl text-center font-bold'>Get Your Daily Needs From Our RWAMED Store</h1>
@@ -13,7 +13,7 @@ const AdsSection = () => {
                 <button className='flex mt-5 bg-blue-600 text-white px-8 py-2 rounded-md'>Get In Touch With Us</button>
             </div>
             <div className='xl:w-30% xl:flex md:hidden hidden h-full'>
-                <Image height={100} width={100} src='/Ad2.webp' alt='ad' className='w-full h-full object-cover' />
+                <Image height={100} width={500} src='/Ad2.webp' alt='ad' className='w-full h-full object-cover' />
             </div>
         </div>
     )

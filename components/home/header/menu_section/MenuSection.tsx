@@ -17,8 +17,8 @@ export function MenuSection() {
   ];
 
   return (
-    <div className="bg-white sticky top-0 z-20">
-      <div className="max-w-screen-2xl mx-auto px-3 sm:px-10">
+    <div className="bg-white w-full sticky top-0 z-20">
+      <div className="w-full">
         <div className="top-bar h-16 lg:h-auto flex items-center justify-between py-4 mx-auto">
           <a className="mr-3 lg:mr-12 xl:mr-12 hidden md:hidden lg:block" href="/">
             <div className="flex font-extrabold text-xl w-24 h-10 text-blue-700 ">
@@ -119,8 +119,8 @@ export function MenuSection() {
           </div>
         </div>
       </div>
-      <div className="hidden lg:block xl:block bg-gray-100 border-b">
-        <div className="max-w-screen-2xl mx-auto px-3 sm:px-10 h-12 flex justify-between items-center">
+      <div className="hidden lg:block xl:block  w-full border-b">
+        <div className="w-full h-12 flex justify-between items-center">
           <div className="inline-flex">
             <div className="relative">
               <div className="max-w-7xl mx-auto">

@@ -8,8 +8,8 @@ export function TopSection() {
     })
     // const t = useTranslations("subNav");
     return (
-        <div className="hidden lg:block bg-[#1185ea]">
-            <div className="max-w-screen-2xl mx-auto px-3 sm:px-10">
+        <div className="hidden px-5 lg:block w-full bg-[#1185ea]">
+            <div className="w-full">
                 <div className="text-gray-100 py-2 font-sans text-xs font-medium border-b flex justify-between items-center">
                     <span className="flex items-center">
                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" className="mr-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">

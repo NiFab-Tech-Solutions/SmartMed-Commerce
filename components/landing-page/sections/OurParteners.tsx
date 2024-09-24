@@ -3,7 +3,7 @@ import partenersData from '../data/dummy-data/ourPartenersDumyData'
 import Image from 'next/image'
 const OurParteners = () => {
     return (
-        <div className="OurServicesparteners min-h-screen h-fit py-12 bg-gray-200 w-full flex flex-col space-y-12 items-center justify-center px-8">
+        <div className="OurServicesparteners min-h-screen px-3 h-fit py-12 bg-gray-200 w-full flex flex-col space-y-12">
             <div className='upperSection w-full flex flex-col space-y-16 justify-center items-center mx-auto md:px-12 px-1 pb-12 border-b-2  border-b-black'>
                 <h1 className="xl:text-5xl md:text-4xl text-2xl  font-bold">Our partenrs</h1>
                 <p className='text-gray-700 md:px-20 px-2 mt-2 text-center leading-relaxed'>We have a wide range of parteners who help us to provide the best services to our customers. We are always looking for new parteners who can help us to improve our services. If you are interested in becoming a partener, please feel free to contact us at any time.</p>

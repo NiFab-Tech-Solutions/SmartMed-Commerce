@@ -13,15 +13,15 @@ const PopularProductsSection = () => {
       route.push(`/${locale}/product_details`)
   })
   return (
-    <div className="PopularProducts w-full max-w-screen-2xl mx-auto px-3 sm:px-10 flex flex-col items-center justify-center">
+    <div className="PopularProducts w-full flex flex-col">
       <div className="productsTitle w-full flex flex-col 2xl:p-12 xl:p-12 lg:p-12 md:p-12 p-6 md:items-center items-start md:justify-center justify-center">
         <h1 className="md:text-3xl text-2xl font-bold">Popular Products</h1>
         <p className="text-gray-700  leading-relaxed">See Our latest discounted products from here and get a special discount product</p>
         <p className='text-gray-700  leading-relaxed'>RWAMED makes it easy to find the best products for you</p>
       </div>
-      <div className="productsList w-full grid-cols-2 grid 2xl:grid-cols-6 xl:grid-cols-6 lg:grid-cols-6 md:grid-cols-4  sm:grid-cols-2 gap-2 items-center justify-center md:px-6 px-3 ">
+      <div className="productsList w-full grid-cols-2 grid 2xl:grid-cols-6 xl:grid-cols-6 lg:grid-cols-6 md:grid-cols-4  sm:grid-cols-2 gap-2 ">
         {DummyProducts.map((product, index) => (
-          <div key={index+1} className="productItem shadow-md rounded-md md:p-5 p-3 flex flex-col space-y-2 items-center justify-center h-72" onClick={handleRedirect}>
+          <div key={index+1} className="productItem shadow-md rounded-md md:p-5 p-3 flex flex-col space-y-2  h-72" onClick={handleRedirect}>
           <div className='flex w-full space-x-1'>
               <div className='stock'>
                 <p className='text-sm font-normal text-blue-600'>Stock:</p>
