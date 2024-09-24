@@ -12,7 +12,7 @@ interface MobileNavProps {
 
 const MobileNav = ({ onClick }: MobileNavProps) => {
   return (
-    <div className='md:hidden inline-block bottom-0 bg-orange-600 z-10 flex-col fixed w-full'>
+    <div className='md:hidden inline-block bottom-0 p-4 bg-orange-600 z-10 flex-col fixed w-full'>
       <div className='flex justify-between text-white'>
         <button className='flex items-center' onClick={onClick}>
           <HiBars3BottomLeft className='text-2xl' />
