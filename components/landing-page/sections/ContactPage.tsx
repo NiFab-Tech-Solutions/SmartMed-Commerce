@@ -54,8 +54,8 @@ const ContactPage = () => {
                 <p className="text-sm">
                    Fill the form below to send us a message.
                 </p>
-                <p className="email text-sm">Email: komparas@gmail.com</p>
-                <p className="email text-sm">Email: support@komparas.com</p>
+                <p className="email text-sm">Email: rwamed@gmail.com</p>
+                <p className="email text-sm">Email: support@rwamed.com</p>
               </div>
             </div>
             <div className="lg:w-[70%] w-full lg:p-0 lg:mt-0 mt-12 flex flex-col lg:shadow">

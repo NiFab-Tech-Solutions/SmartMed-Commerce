@@ -13,7 +13,7 @@ import ContactPage from "@/components/landing-page/sections/ContactPage";
 export default function Home() {
 
   return (
-    <main className="scroll-smooth">
+    <main className="scroll-smooth bg-white">
       <MainLayout>
         <section id="home">
           <BurnerSection />

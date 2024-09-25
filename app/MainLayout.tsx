@@ -14,7 +14,7 @@ export default function MainLayout({children}:{children:React.ReactNode}) {
     };
 
     return (
-        <main className="scroll-smooth bg-white lg:px-12 md:px-4 px-0">
+        <main className="scroll-smooth lg:px-12 md:px-4 px-0">
           {isMobileMenuOpen ? (
             <MobileMenu onClose={toggleMobileMenu} />
           ) : (
